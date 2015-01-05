@@ -63,6 +63,6 @@ If you don't supply an options object, the following will be used
 }
 ```
 
-#### `maxProcesses` the most child processes you want running at a single time
-#### `preLoadChildren` when set, the child processes will be created before giving an input
-#### `allowOverflow` allows you to give an input even when all processes are busy. It will be inputted whenever a process is ready
+* `maxProcesses` the most child processes you want running at a single time
+* `preLoadChildren` when set, the child processes will be created before giving an input
+* `allowOverflow` allows you to give an input even when all processes are busy. It will be inputted whenever a process is ready
